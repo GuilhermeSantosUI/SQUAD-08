@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 500;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  appearance: textfield;
+}
+
+video::-webkit-media-controls-panel {
+  display: none !important;
+  opacity: 1 !important;
+}
+
+canvas {
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+
+  :hover {
+    text-decoration: underline;
+  }
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+
+ul {
+  list-style: none;
+}
